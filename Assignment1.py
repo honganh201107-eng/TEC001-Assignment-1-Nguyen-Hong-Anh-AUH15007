@@ -24,10 +24,6 @@ print("The sum of the numbers is: " + str(sum_numbers))
 print("The product of the numbers is: " + str(product))
 print("The average of the numbers is: " + str(average))
 #Ex6:
-# 1 talent = 20 pounds
-# 1 pound = 32 lots
-# 1 lot = 13.3 grams
-
 talents = float(input("Enter talents: "))
 pounds = float(input("Enter pounds: "))
 lots = float(input("Enter lots: "))
@@ -42,11 +38,7 @@ print(f"{kilograms} kilograms and {grams:.2f} grams.")
 
 #Ex7:
 import random
-
-# 3-digit code, digits 0-9
 code3 = [str(random.randint(0, 9)) for _ in range(3)]
-# 4-digit code, digits 1-6
 code4 = [str(random.randint(1, 6)) for _ in range(4)]
-
 print("3-digit code:", ''.join(code3))
 print("4-digit code:", ''.join(code4))
